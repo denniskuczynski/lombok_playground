@@ -4,7 +4,7 @@ import lombok.ToString;
 import lombok.experimental.SuperBuilder;
 
 @SuperBuilder
-@ToString
+@ToString(callSuper=true)
 public class Cat extends Animal {
     private boolean claws;
 }
